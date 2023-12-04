@@ -1,0 +1,133 @@
+.body { 
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #E56000;
+}
+
+.titleCarusel {
+    color: #E56000;
+    font-size: 66px;
+}
+
+.caruselFlex {
+    display: flex;
+}
+
+.caruselFlex img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+}
+
+.boxcarusel{
+
+}
+
+.caruselOne {
+    width: 340px;
+    height: 240px;
+    background-color: #E7E7E7;
+    border-radius: 30px;
+    display: flex;
+}
+
+.hitugol {
+    background-color: #E56000;
+    width: 80px;
+    height: 40px;
+    color: white;
+    line-height: 40px;
+    position: relative;
+    left: 260px;
+    top: -15px;
+    text-align: center;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.textBoxTwo {
+    position: relative;
+    top: -50px;
+    left: 10px;
+}
+
+.serianumber {
+    color: #E56000;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+}
+
+.chet {
+    width: 180px;
+}
+
+.imgcarusel {
+    position: relative;
+    left: -35px;
+}
+
+.caruselSlide {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 80%; 
+}
+
+.allSlideCaruseel {
+    display: flex;
+}
+
+.caruselOne {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 33.33%; 
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .active {
+    transform: scale(1.2); 
+  }
+  
+  .carousel-container {
+    position: relative;
+  }
+  
+  .carousel-container .prev,
+  .carousel-container .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    background: #E56000;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .carousel-container .prev {
+    left: 10px;
+  }
+  
+  .carousel-container .next {
+    right: 10px;
+  }
+

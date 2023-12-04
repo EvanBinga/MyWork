@@ -1,0 +1,657 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray; /* Серый фон */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow-x: hidden; /* Скрыть горизонтальный скролл */
+
+}
+.error-message {
+    color: red;
+    font-weight: bold;
+    display: none; /* Сначала скрываем сообщение */
+}
+
+/* Убираем стрелочки в полях ввода с типом "number" */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+
+
+
+
+
+.mobile{
+    display: none;
+}
+
+.container {
+    background-image: url('/img/landing-1\ 1.png');
+    background-size: cover;
+    height: 900px;
+    background-position: center;
+    max-height: 2300px; /* Максимальная высота для изображения */
+}
+
+.content {
+    padding: 20px;
+    border-radius: 10px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    font-size: 86px;
+    margin-bottom: 10px;
+    text-align: left;
+    transform: translateX(100%);
+    animation: slideInRight 1s ease-out forwards;
+}
+
+@keyframes slideInRight {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.landingText {
+    font-size: 21px;
+    line-height: 1.5;
+    text-align: left;
+    position: relative;
+    top: 30px;
+}
+
+
+.buttonLanding {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    background: linear-gradient(150deg, rgb(188, 66, 219) 0%, rgb(102, 16, 110) 50%, rgb(123, 7, 88) 50%, rgb(126, 13, 132) 100%);
+    padding: 15px 100px;
+    border-radius: 5px;
+    position: relative;
+    top: 170px;
+    transform: translateY(100%);
+    animation: slideInUp 1s ease-out forwards;
+}
+
+
+/* Стили для попапа */
+#popupContainer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    transition: height 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.logobox{
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.nashiPost{
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    color: brown;
+}
+
+.imgL{
+    width: 100px;
+}
+
+#ort{
+    width: 200px;
+    position: relative;
+    bottom: 48px;
+    
+}
+
+.imgLe{
+    width: 250px;
+    position: relative;
+    bottom: 70px;
+}
+
+.logobox div{
+    margin-left: 110px;
+}
+
+.ulite{
+    font-size:45px;
+    position: relative;
+    top: -17px;
+}
+
+#popupContent {
+    width: 600px;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    text-align: center; /* Выравнивание текста по центру */
+}
+#visitSitesButton {
+    background-color: brown; /* Цвет фона кнопки */
+    color: white; /* Цвет текста */
+    padding: 10px 20px; /* Увеличьте или уменьшите отступы, чтобы сделать кнопку больше или меньше */
+    position: absolute;
+    top: 0; /* Положение кнопки сверху */
+    right: 0; /* Положение кнопки справа */
+    position: fixed;
+    border: 0;
+    cursor: pointer;
+  }
+
+  #visitSitesButton:hover{
+    background-color: white;
+    color: brown;
+    transition: 0.3s;
+  }
+/* Стили для кнопки "Закрыть" */
+#closePopupButton {
+    background-color: #f44336; /* Красный цвет */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px; /* Отступ от содержимого */
+}
+
+
+
+#closePopupButton:hover {
+    background-color: #d32f2f; /* Цвет при наведении */
+}
+
+/* Стили для ссылок на сайты */
+#popupContent a {
+    color: #007bff; /* Цвет ссылок */
+    text-decoration: none;
+    margin: 10px 0; /* Отступ между ссылками */
+    display: block; /* Ссылки будут отображаться в виде блоков */
+}
+
+#popupContent a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+
+.buttonLanding:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+.boxAnimate {
+    opacity: 0; /* Начальное состояние контейнера */
+    transition-duration: 0.5s;
+}
+
+/* Стили для других элементов, которые вы хотите анимировать */
+
+
+.logo{
+    margin-left: 40px;
+    margin-top: 10px;
+    transform: translateY(-100%);
+    animation: slideInLeft 1s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+    to {
+        transform: translateY(0);
+    }
+}
+
+.animate-text {
+    transform: translateX(-100%);
+    animation: slideInFromTop 1s ease-out forwards;
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Анимация для надписи (снизу вверх) */
+
+
+.boxOne{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+.titleExpo{
+    color: brown;
+    font-size: 50px;
+}
+
+.textExpo{
+    line-height: 30px;
+}
+
+.witExpo{
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+}
+
+
+.boxRed{
+    position: relative;
+
+    top: 100px;
+}
+
+header{
+    display: flex;
+    margin: 0 auto;
+}
+
+.headerText{
+    margin-left: 1200px;
+}
+
+/* Стили для слайдера */
+.slider {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+.sliderTitle {
+    text-align: left;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.sliderContent {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    flex: 0 0 100%;
+    opacity: 0;
+    position: absolute; /* Изменено на абсолютное позиционирование */
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+    position: relative; /* Возврат к обычному позиционированию */
+    z-index: 1; /* Установите z-index для активного слайда, чтобы он был поверх других */
+}
+
+/* ... остальные стили ... */
+
+/* ... остальные стили ... */
+
+/* ... остальные стили ... */
+
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.sliderControls {
+    text-align: right;
+}
+
+.sliderPrev, .sliderNext {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.sliderDots {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: brown;
+}
+
+
+.calbackform{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+}
+
+.formtitile{
+    font-size: 35px;
+}
+.textForm{
+    font-size: 25px;
+    position: relative;
+    top: -30px;
+}
+
+.formRedBox{
+    background-color: brown;
+    border-radius: 10px;
+    width: 1280px;
+    height: 700px;
+    display: flex;
+}
+
+.boxform{
+    width: 1100px;
+    padding-top: 30px;
+    padding-left: 100px;
+    margin: 0 auto;
+}
+
+.textInput{
+    font-size: 24px;
+}
+
+.inputForm{
+    width: 400px;
+    padding-left: 5px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.chekbox{
+    position: relative;
+    top: 10px;
+}
+
+.buttonForm{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    background: linear-gradient(150deg, rgb(188, 66, 219) 0%, rgb(102, 16, 110) 50%, rgb(123, 7, 88) 50%, rgb(126, 13, 132) 100%);
+    padding: 15px 100px;
+    border-radius: 5px;
+    position: relative;
+    border: 0;
+    top: 40px;
+    transform: translateY(100%);
+    animation: slideInUp 1s ease-out forwards;
+}
+
+.buttonForm:hover{
+  background-color: white;
+  color: brown;
+  transition: 0.3s;
+}
+.mob{
+    display: none ;
+}
+.formImg{
+    padding-right: 70px;
+        border-radius: 10px;
+
+    position: relative;
+    top: 100px;
+    width: 500px;
+    height: 400px;
+}
+
+.endLandos{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+    
+}
+.textOne{
+    font-size: 17px;
+}
+
+
+.textTwo{
+    text-align: center;
+    font-size: 27px;
+    position: relative;
+    top: 50px;
+}
+
+#ps{font-size:30px;}
+/* adaptive */
+
+@media (max-width: 768px) {
+    /* Стили для мобильных устройств */
+    body{
+            overflow-x: hidden; /* Скрыть горизонтальный скролл */
+
+    }
+    .none{
+        display: none;
+    }
+
+#spp{
+    font-size:12px;
+}
+
+    .mobile{
+        display: block;
+        position: relative; /* Устанавливаем родительский элемент в режим позиции */
+
+    }
+   
+    .mobImg{
+        width: 100%;
+        height: 300px;
+    position: relative;
+    top: 40px;
+    }
+
+    .logom{
+        width: 40px;
+    }
+
+ 
+
+    .contentmob {
+        width: 100%;
+        position: absolute; /* Устанавливаем вложенный блок в режим абсолютной позиции */
+        top: 0%;
+        left: 0%; /* Перемещаем его на левый край родительского блока */
+        transform: translate(-50%, -50%); /* Центрируем его по центру родительского блока */
+        text-align: center; /* Выравниваем текст по центру */
+        color: white; /* Устанавливаем цвет текста */
+    }
+    
+    .titilemob {
+        font-size: 19px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    
+    .landingTextmob {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    
+
+    
+    .buttonLandingmob:hover {
+        color: brown;
+        background-color: white;
+        transition: 0.3s;
+    }
+    
+
+    .boxOnem{
+        text-align: center;
+        line-height: 30px;
+         position: relative;
+    top: 40px;
+    }
+
+    .slidem{
+        width: 100%;
+    }
+ 
+    .calbackform{
+        width: 100%;
+    }
+
+    .formtitile{
+        width: 100%;
+        text-align: center;
+    }
+
+    .textForm{
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .formRedBox{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .boxform{
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .textInput{
+        width: 100%;
+
+    }
+
+    .inputForm{
+        width: 90%;
+
+    }
+
+    .mobimgM{
+        width: 100%;
+            height: 300px;
+
+    }
+
+.sliderControls{
+    display: none;
+}
+
+    .endLandos{
+        width: 100%;
+
+    }
+
+    .textOne{
+        width: 100%;
+        text-align: center;
+
+    }
+    
+    .sliderm{
+          position: relative;
+    top: 80px;
+    }
+
+    .textTwo{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    
+    #ortm{
+        width: 200px;
+    }
+
+    .ulitem{
+        width: 100%;
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .formImg{
+            display: none;
+
+    }
+    
+    .sliderTitlem{
+            font-size: 23px;
+
+    }
+    
+
+}
+
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    text-align: center;
+}
+
+#close-error-popup {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}

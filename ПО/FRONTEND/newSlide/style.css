@@ -1,0 +1,83 @@
+.titleCarusel {
+  color: #E56000;
+  font-size: 66px;
+}
+
+.caruselFlex {
+  display: flex;
+}
+
+.caruselFlex img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 50px;
+}
+
+.scrollSlide {
+  background-color: #cacaca;
+  width: 80%; /* Изменено ширину на 80% */
+  margin: 0 auto;
+  height: 600px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Добавлено позиционирование */
+}
+
+.carouselContainer {
+  flex-grow: 1; /* Добавлено увеличение flex-grow */
+  overflow: hidden;
+}
+
+.boxSlideScroll {
+  display: flex;
+  transition: transform 0.5s ease; /* Добавлено плавное переход */
+}
+
+.scrollone {
+  width: 200px;
+  height: 200px;
+  background-color: aliceblue;
+  margin-left: 10px;
+  flex-shrink: 0;
+  display: inline-block;
+  transition: transform 0.5s ease; /* Добавлено плавное переход */
+}
+
+.scrollone.active {
+  background-color: #ffcc00;
+  color: #333;
+  width: 300px;
+  height: 300px;
+  transform: scale(1.2); /* Добавлено увеличение активного слайда */
+}
+
+
+.scrollone {
+  width: 275px;
+  height: 270px;
+  background-color: aliceblue;
+  margin-left: 10px;
+  flex-shrink: 0;
+  display: inline-block;
+  transition: transform 0.5s ease; /* Добавлено плавное переход */
+  overflow: hidden; /* Добавлено свойство overflow для скрытия избыточного содержимого */
+}
+
+.scrollone .opisanievsego {
+  /* Стили для блока с описанием */
+}
+
+.scrollone .imgcarusel {
+  /* Стили для блока с изображением */
+}
+
+.scrollone.active {
+  background-color: #ffcc00;
+  color: #333;
+  width: 300px;
+  height: 300px;
+  transform: scale(1.2); /* Добавлено увеличение активного слайда */
+}

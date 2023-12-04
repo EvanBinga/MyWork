@@ -1,0 +1,2328 @@
+/* newx */
+
+/* onebox */
+
+.newsBoxSlide{
+    font-family: 'EuropeExt', Arial, sans-serif;
+    height:430px;
+      display: flex;
+    width: 1280px;
+      margin: 0 auto;
+      background-color: #dcdcdc;
+      border-radius: 30px;
+        position:relative;
+        margin-top:130px;
+    }
+    
+    .vide {
+      width: 100%; /* Adjust the width as needed, e.g., 80% or a fixed pixel value */
+      height: auto; /* Maintain aspect ratio, automatically adjust height based on width */
+      margin-left: 60px;
+    }
+    
+    
+    
+    
+    
+    .atribut{
+      display: flex;
+      position: relative;
+      left: 30px;
+        top:10px;
+    }
+    .textvideo{
+      margin-left: 10px;
+      background-color: #666;
+      color: white;
+      border-radius: 40px;
+      font-size: 13px;
+      padding: 3px 22px;
+    }
+    
+    .atributOne{
+      display: flex;
+      position: relative;
+        top:140px;
+    }
+    .textvideoOne{
+      margin-left: 4px;
+      background-color: white;
+      color: black;
+      border-radius: 40px;
+      font-size: 13px;
+      padding: 3px 22px;
+    }
+    
+    
+    .titleNewsUp{
+      color: white;
+      background-color: #666;
+      width: 160px;
+      text-align: center;
+      height: 30px;
+      position: relative;
+      bottom: 15px;
+      line-height: 30px;
+      border-bottom-right-radius: 120px;
+      border-top-left-radius: 120px;
+    
+    }
+    
+    
+    .titleBoxnewsTwo{
+        font-size:23px;
+             color: #2A5681;
+    
+          font-weight: lighter;
+    
+    }
+    
+    .textbold{
+         color: #2A5681;
+      font-weight: bold;
+      width: 500px;
+      font-size: 30px;
+    }
+    
+    .boxnewsTwo{
+      margin-left: 100px;
+            width: 497px;
+        height: 350px;
+        margin-top:40px;
+    }
+    
+    .textVideoBold{
+    width:680px;
+      font-weight: bold;
+      font-size: 15px;
+      color: #666;
+      position: relative;
+      bottom: 20px;
+    }
+    
+    
+    .textVideoDown{
+      font-size: 11px;
+      color: #666;
+      position: relative;
+      bottom: 30px;
+    width:680px;
+    
+    }
+    
+    
+    /*  */
+    
+    .newsBoxSlideOne {
+      display: flex;
+      width: 1280px;
+      margin: 0 auto;
+      background-color: #0065CB;
+      border-radius: 30px;
+      height: 510px;
+      padding-top: 30px;
+      position: relative;
+        
+      font-family: 'EuropeExt', Arial, sans-serif;
+    top:100px;
+        height:540px;
+    
+    }
+    
+    .flexozontext {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      position: absolute;
+      top: -23px;
+    }
+    
+    .newsOzon {
+      color: white;
+      font-size: 23px;
+      background-color: #E56000;
+      border-top-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      width: 150px;
+      text-align: center;
+    
+    }
+    
+    .newsOzon1, .newsOzon2 {
+      color: white;
+      font-size: 18px;
+    }
+    
+    .newsOzon1{
+      position: relative;
+      left: 28px;
+      width: 210px;
+      bottom: 5px;
+      text-align: center;
+      color: #0065CB;
+      background-color: white;
+      border-bottom-left-radius: 30px;
+    
+    }
+    
+    .newsOzon2{
+      position: relative;
+      width: 230px;
+      bottom: 5px;
+      right: 1px;
+      text-align: center;
+      color: white;
+      background-color: #E56000;
+      border-bottom-left-radius: 30px;
+      border-top-right-radius: 30px;
+    
+    }
+    
+    
+    .textnewsOzonnnn{
+      display: flex;
+      align-items: center;
+    }
+    
+    
+    
+    .ozonText {
+      color: white;
+      font-size: 23px;
+      padding: 20px;
+      position: absolute;
+      left: 20px;
+    }
+    
+    .titleOzonTextbold {
+      font-size: 35px;
+      font-weight: bold;
+    }
+    
+    .textOzon {
+      color: white;
+      font-size: 11px;
+    }
+    
+    .rightBoxOzon {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      position: relative;
+      flex: 1;
+      left: 515px;
+    }
+    
+    
+
+    
+    .boxOzonImg img {
+      height: 400px;
+      width: 490px;
+      margin-bottom: 20px;
+      position: absolute;
+      left: 240px;
+        top:20px;
+      border-radius: 20px;
+    }
+    
+    
+    .ozonBoxArowSlide {
+      display: flex;
+      position: absolute;
+      left: 20px;
+      margin-top: 30px;
+      width: 600px;
+    }
+    
+    /* .ozonArrow {
+      font-size: 24px;
+      cursor: pointer;
+      position: relative;
+      top: 40px;
+      color: white;
+    }
+    
+    .ozonArrow.right {
+      font-size: 24px;
+      cursor: pointer;
+      position: relative;
+      top: 40px;
+      z-index: 999999;
+      color: white;
+    } */
+    /* 
+    .ozonArrow.left {
+      font-size: 24px;
+      cursor: pointer;
+      position: relative;
+      top: 40px;
+      color: white;
+    }
+     */
+    .ozonBoximgSlide {
+      display: flex;
+      width: 600px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .ozonBoximgSlide img {
+      width: 150px;
+      height: 110px;
+      position: relative;
+      border: 1px solid white;
+      transition: transform 0.5s ease;
+      margin-right: 7px; /* Пробуйте различные отрицательные значения для достижения нужного интервала */
+    }
+    /*  */
+    /* usproject */
+    
+    .titleProject{
+        position:relative;
+        font-size:34px;
+        color:#ccc;
+        width:400px;
+        background-color:white;
+        position:relative;
+        top:50px;
+        padding-left:10px;
+        z-index:9999999;
+        font-family: 'EuropeExt', Arial, sans-serif;
+    
+        
+    }
+    
+    .titleProjectBox{
+        width:1200px;
+        margin:0 auto;
+    }
+    
+    .titleProject1{
+        position:relative;
+        top:50px;
+        right:110px;
+        font-size:30px;
+        background-color:#fff;
+        color:#ccc;
+        width:1000px;
+        padding-left:20px;
+        z-index:9999999;
+        font-family: 'EuropeExt', Arial, sans-serif;
+        margin:0 auto;
+    }
+    .projects-container {
+            font-family: 'EuropeExt', Arial, sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 1280px;
+      margin: 0 auto ;
+        margin-top:180px;
+    }
+    
+    .project-block {
+      width: 30%;
+      margin: 10px;
+    
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    
+    .project-block:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      transition: 0.3s;
+      border-radius: 20px;
+    }
+    
+    .project-block img {
+      width: 100%;
+    
+      height: auto;
+    }
+    
+    .project-description {
+      margin-top: 10px;
+    }
+    
+    
+    
+    .small-text {
+      font-size: 11px;
+      color: black;
+    }
+    
+    
+    
+    
+    
+    /* end */
+    /* usproject222 */
+    
+    
+    .projects-container1 {
+            font-family: 'EuropeExt', Arial, sans-serif;
+        border: 4px solid  #B2B2B2;
+        border-radius:50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 1200px;
+      margin: 0 auto ;
+    
+        position:relative;
+        top:40px;
+    }
+    
+    .project-block1 img {
+      width: 100%;
+      height: 250px;
+      border-radius: 50px;
+      box-shadow: 0 0 0 5px white; /* белая граница внутри элемента */
+      padding: -5px; /* отступ внутри блока */
+    }
+    .imgboxxxxx{
+         width: 105%;
+        height:250px;
+        border-radius:10px;
+    }
+    
+    
+    .project-block1 {
+      width: 30%;
+         border-radius: 50px;
+      padding-top:30px;
+      margin: 10px;
+      overflow: hidden; /* чтобы граница не выходила за пределы блока */
+      box-sizing: border-box;
+    }
+    
+    
+    
+    .project-block1:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      transition: 0.3s;
+      border-radius: 40px;
+    }
+    
+    
+    
+    
+    .big-text1{
+        
+      color: #FFFFFF;
+      background-color: #D36327;
+      text-align: center;
+      border-radius: 10px;
+      padding-top:5px;
+        height:30px;
+        font-weight:bold;
+        
+    }
+    
+    .small-text1{
+        text-align:center;
+        font-size:11px;
+            font-weight:bold;
+    
+    }
+    
+    
+    
+    .project-block {
+      width: 30%;
+      margin: 10px;
+    
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    
+    
+    
+    .project-block:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      transition: 0.3s;
+      border-radius: 20px;
+    }
+    
+    .project-block img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .project-description {
+      margin-top: 10px;
+    }
+    
+    .big-text {
+      font-size: 16px;
+    }
+    
+    .small-text {
+      font-size: 12px;
+      color: #666;
+    }
+    
+    
+    
+    
+    
+    /* end */
+    
+    
+    
+    
+    /* карусель */
+    .slider-containerUp {
+        position: relative;
+        overflow: hidden;
+        top:70px;
+        width:1440px;
+        margin:0 auto;
+      }
+    .hitTitleBox{
+      width: 1280px;
+      margin: 0 auto;
+      text-align: center;
+            margin-top:100px;
+    
+    }
+      .boxSliderUp {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+    
+    .hitTitleBoxYes{
+        font-size: 30px;
+        color:#B2B2B2;
+          width: 1280px;
+      text-align: center;
+      margin: 0 auto;
+            font-family: 'EuropeExt', Arial, sans-serif;
+    
+    }
+    
+      .itemSliderUp {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 300px;
+        height: 200px;
+        margin-right: 5px; /* Используем margin-right вместо margin-left для отступов между слайдами */
+      }
+    
+      .itemSliderUp img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Заполнение изображения внутри контейнера */
+      }
+    
+      /* Стили для стрелок навигации */
+      #prevArrow, #nextArrow {
+        cursor: pointer;
+        font-size: 24px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+          opacity:0;
+      }
+    
+      #prevArrow {
+        left: 10px;
+      }
+    
+      #nextArrow {
+        right: 10px;
+      }
+    /*  */
+    .textBoxTwo {
+        position: relative;
+        top: -70px;
+        text-align: left;
+        left: 10px;
+        background-color: white;
+        border-radius: 30px;
+
+    }
+    
+    .serianumber {
+        color: #E56000;
+        font-size: 23px;
+        position: relative;
+        top: 20px;
+            font-weight:bold;
+    
+    }
+    
+    .chet {
+        width: 180px;
+        font-size:12px;
+        font-weight:bold;
+        color:#808080;
+        position:relative;
+        top:40px;
+    }
+    
+    .imgcarusel {
+        position: relative;
+        left: -35px;
+    }
+    
+    
+    
+    .imgcarusel img{
+      position: relative;
+      left: 430px;
+      top: -240px;
+      width: 110px;
+    height:auto;
+    }
+    
+    .resurs{
+        height:140px;
+        width:20px;
+    }
+    
+    .brandboxxxx{
+        width:1280px;
+        margin:0 auto;
+        position:relative;
+    
+    }
+    
+    
+    /* .brandboxxxx img{
+        width:1280px;
+    
+    }
+     */
+    .brandboxxxxOne{
+        
+        position:relative;
+    
+        top:150px;
+        left:150px;
+        width:1200px;
+    
+        margin:0 auto;
+    }
+    
+    
+    
+    
+    
+    .brandboxxxxTwo{
+        
+        position:relative;
+        top:270px;
+    
+    
+        width:1200px;
+        margin:0 auto;
+        padding-bottom:300px;
+    }
+    
+    
+    
+    .boximgSlide{
+        display:flex;
+        position:relative;
+        top:300px;
+        right:480px;
+    }
+    
+    .boximgSlide img{
+        width:150px;
+        margin-left:10px;
+        border-radius:20px;
+    }
+    
+    
+    .caruselSlide {
+            font-family: 'EuropeExt', Arial, sans-serif;
+    
+        overflow-x: auto;
+        white-space: nowrap;
+        width: 1280px; /* Установите фиксированную ширину */
+        margin: 0 auto; /* Центрируйте блок на странице */
+    }
+    
+    
+    
+    .allSlideCaruseel {
+        display: flex;
+    }
+    
+    .caruselOne {
+        flex: 0 0 auto;
+        margin-right: 10px;
+    }
+    
+    
+    /* коец */
+    
+    
+    /* popup Form */
+    
+    
+    .popUpContainerForm{
+        position: fixed;
+        background-color: rgba(56, 48, 48, 0.163);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        left:0;
+            top:0;
+    z-index:999999999999999;
+    }
+    
+    
+    .popUpboxDark {
+        transition: opacity 0.5s ease-in-out;
+            opacity: 0;
+    
+    }
+    
+    .popUpboxDark.active {
+        opacity: 1;
+    }
+    
+    .popUpboxDark:not(.active) {
+        opacity: 0;
+    }
+    
+    .popupbkx{
+        font-family: 'EuropeExt', Arial, sans-serif;
+        font-weight:bold;
+        font-size:20px;
+        background-color: gray;
+        width: 500px;
+        height: 400px;
+        text-align: center;
+        align-items: center;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        position:relative;
+        left:100px;
+    }
+    
+    .buttonformPopUp{
+        position: relative;
+        border-radius: 5px;
+        border: 0;
+        left: -270px;
+        top:100px;
+        cursor: pointer;
+        width: 250px;
+        height: 30px;
+    } 
+    
+    
+    .buttonformPopUp:hover{
+        background-color: orangered;
+        transition: 0.3s;
+        color: white;
+    } 
+    
+    .titleBoxPopup{
+        color: white;
+    }
+    
+    
+    
+    
+    
+    /* end */
+    
+    
+    
+    
+    
+    
+    
+    .formBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+      position: relative;
+      top: 20px;
+          width: 1100px;
+    
+      margin:0 auto;
+    }
+    
+    .bckBox {
+      border: 2px solid #ccc; /* Пример границы для блока с фоном */
+      padding: 20px; /* Пример внутренних отступов */
+      width: 1100px;
+      border-radius: 10px;
+      height: 350px;
+         margin:0 auto;
+    
+    }
+    
+    
+    
+    
+    
+    .containerFlex {
+      display: flex;
+      position: relative;
+      bottom: 125px;
+    
+    }
+    
+    .adw{
+      color: white;
+      background-color: #E56000;
+      text-align: center;
+      border-radius: 10px;
+      
+    
+    }
+    
+    .inputColumn,
+    .textColumn,
+    .imageColumn {
+      flex: 1;
+      padding: 20px; /* Пример внутренних отступов для каждой колонки */
+    }
+    
+    
+    
+    .inputColumn input,
+    .textColumn input {
+      box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2); /* Это свойство добавляет тень снизу */
+    }
+    .inputColumn input {
+      width: 230px;
+      border-radius: 10px;
+      border: 0;
+      height: 40px;
+      margin-bottom: 10px;
+      margin-top: 21px;
+      border: 1px solid #bbbbbb;
+    
+    }
+    
+    #submitButton{
+      width: 230px;
+      height: 37px;
+      color: white;
+      background-color: #E56000;
+      border-radius: 10px;
+      border: 0;
+      position: relative;
+      top: 70px;
+    }
+    .textColumn{
+      width: 900px;
+    
+    }
+    .textColumn input {
+      width: 550px;
+      height: 210px;
+      position: relative;
+      position: relative;
+      top: 10px;
+      border-radius: 10px;
+      border: 2px solid #bbbbbb;
+    }
+    
+    .imageColumn img {
+      width: auto;
+      height: auto;
+      position: relative;
+      right: 30px;
+    }
+    
+    #fileToUpload {
+      /* Скрываем стандартный вид input для загрузки файла */
+      display: none;
+    }
+    
+    /* Стилизуем текст на кнопке */
+    #fileToUploadLabel span {
+      display: inline-block;
+      margin-right: 5px; /* Небольшой отступ между кнопкой и текстом */
+    }
+    
+    #fileToUploadLabel {
+      font-family: 'EuropeExt', Arial, sans-serif;
+      position: relative;
+      left: -20px;
+      display: flex; /* Используем flexbox */
+      align-items: center; /* Выравниваем элементы по центру по вертикали */
+      background-color: #fff; /* Цвет фона кнопки */
+      color: gray; /* Цвет текста */
+      padding: 5px 10px; /* Отступы внутри кнопки */
+      border-radius: 5px; /* Закругление углов */
+      cursor: pointer; /* Изменение курсора при наведении */
+      border: 1px solid gray;
+      font-size: 14px;
+    }
+    
+    #fileToUploadLabel::before {
+      content: '\1F4CE'; /* Unicode символ для иконки скрепки */
+      font-size: 14px; /* Размер шрифта иконки */
+      margin-right: 5px; /* Отступ между иконкой и текстом */
+    }
+    
+    /* Добавляем стили для выделения кнопки при наведении */
+    #fileToUploadLabel:hover {
+      background-color: gray;
+      color: white;
+    }
+    
+    
+    .buttonBox {
+      width: 100%;
+      text-align: center; /* Центрирование кнопки */
+        position:relative;
+      bottom:40px;
+    }
+    
+    
+    .formTitle{
+      color: #9e9c9c;
+      background-color: #ffffff;
+      width: 300px;
+      position: relative;
+      bottom: 70px;
+      text-align: center;
+      font-size: 30px;
+    }
+    
+    
+    
+    .checkboxColumn {
+      margin-left: 300px;
+      position: relative;
+      bottom: 180px;
+      display: flex;
+      align-items: center;
+    }
+    .checkboxColumn label {
+      display: inline-block;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      margin-right: 5px;
+      width: 300px;
+      background-color: #e0e0e0;
+      color: #fff;
+      border-radius: 15px;
+      border: 1px solid #bdbdbd;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .checkboxColumn input {
+      display: none;
+    }
+    
+    .checkboxColumn input:checked + label {
+      background-color: #1C4B75;
+    }
+    .checkboxColumn p,
+    .checkboxColumn label {
+      margin-right: 20px;
+    }
+    
+    .checkboxColumn input {
+      margin-right: 5px;
+    }
+    
+    
+    .textChekbox{
+          font-family: 'EuropeExt', Arial, sans-serif;
+    
+      color: #9e9c9c;
+      font-size: 17px;
+      width: 350px;
+      position: relative;
+      top: 0px;
+      right: 7px;
+    }
+    
+    
+    
+    
+    .checkboxColumn label.checked {
+      background-color: #2A5681;
+    }
+    
+    /*  */
+    
+    .projects-container {
+    
+        border-radius:50px;
+        position:relative;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 1280px;
+      margin: 0 auto ;
+    }
+    
+    .project-block {
+      width: 30%;
+      margin: 10px;
+    
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    
+    .project-block:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      transition: 0.3s;
+      border-radius: 20px;
+    }
+    
+    .project-block img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .project-description {
+      margin-top: 10px;
+    }
+    
+    .big-text {
+      font-size: 16px;
+    }
+    
+    .small-text {
+      font-size: 12px;
+      color: #666;
+    }
+    
+    
+    /* меню */
+ 
+    .iconBox{
+        margin-top:130px;
+    }
+    
+    
+    
+    /* конец */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* каталог */
+    .menu-row1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width:1100px;
+        margin:0 auto;
+        font-family: 'EuropeExt', Arial, sans-serif;
+        font-weight:bold;
+    }
+    
+    
+    .ozonn{
+        border-radius:15px;
+        position:relative;
+        left:720px;
+        top:-100px;
+        height:120px;
+    }
+    
+    .ozonn:hover{
+        border-radius:35px;
+        transition:0.5s;
+    
+    }
+    
+    
+    
+    .menuitemBoxIcon {
+        text-align: center; 	margin:20px;/*Увеличьтезначениеотступадо200pxилиповашемуусмотрению */
+        flex: 0 0 calc(25% - 200px); /* 25% минус отступы */
+        text-align: center;
+         padding: 20px;
+        width:270px;
+        height:270px;
+    }
+    /* .iconItem{
+        width: 130px;
+    } */
+    /* .iconItem{
+        width: 150px;
+        height:150px;
+    } */
+    
+    /* .iconItemK{
+        width:250px;
+        height:105px;
+    }
+    
+    .iconItemKlapan{
+        width:125px;
+        height:140px;
+    }
+     */
+    
+    .menu-item p {
+        margin-top: 5px;
+        width:350px;
+    }
+    
+    /* Медиа-запросы для адаптивности */
+    
+    
+    
+    .logoboxIcon{
+        text-align:left;
+        font-family: 'EuropeExt', Arial, sans-serif;
+        width:1100px;
+        margin:0 auto;
+        position:relative;
+        top:30px;
+    }
+    
+    .titileBoxIcon{
+        color: #C1C1C1;
+        text-align:left;
+        width:175px;
+        font-size:30px;
+        padding-left:5px;
+        height:30px;
+         background-color:#FFFFFF;
+        position:relative;
+        top:80px;
+        left:10px;
+        
+    }
+    
+    
+       .flexxxconttttttt{
+        height:650px;
+        padding-top:10px;
+            border: 3px solid #C1C1C1;
+            border-radius: 70px;
+            width:1200px;
+        margin: 0 auto;
+        margin-top:100px;
+    
+        
+            
+        }
+    
+    
+    .menuitemBoxIcon:hover{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        transition: 0.3s;
+        border-radius: 30px;
+    }
+    
+    
+    /* red Box */
+    
+    
+    /*  */
+    
+    
+    
+    
+    /* 
+    .formBox {
+        width:900px;
+        margin:0 auto;
+        font-family: 'EuropeExt', Arial, sans-serif;
+        margin-top:50px;
+    
+      }
+     */
+    
+    .actionCool:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Создание равномерной тени при наведении */
+        transition:0.3s;
+    }
+    .shinop:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Создание равномерной тени при наведении */
+        transition:0.3s;
+    }
+    
+    .lineBox:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Создание равномерной тени при наведении */
+        transition:0.3s;
+    }
+    .rasem:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Создание равномерной тени при наведении */
+        transition:0.3s;
+    }
+    
+    .klapanBox:hover{
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Создание равномерной тени при наведении */
+        transition:0.3s;
+    }
+    
+    @media (max-width: 900px) {
+        .giperMenu{
+            display:none;
+        }
+    }
+    
+    .mobileGiperMenu{
+        display:none;
+    }
+    @media (max-width: 700px) {
+        
+        body {
+          margin: 0 auto;
+        overflow-x: hidden;
+        width:500px;
+    
+    }
+        
+        .containerFlex input{
+            width:310px;
+            position:relative;
+            left:7px;
+            margin:0 auto;
+            margin-top:10px;
+    }
+        
+    
+        
+    
+        
+        
+        .brandBoxPlugTwo{
+            display:none;
+        }
+        
+        .titleAnalogy{
+            display:none;
+        }
+        
+        html{
+            width:400px;
+            overflow-x:hidden;
+            margin:0 auto;
+        }
+        
+        .w1{
+            display:none;
+        }
+        
+        
+        .brandBoxPlug{
+            display:none;
+            opacity:0;
+        }
+        
+        .mobileGiperMenu{
+        display:block;
+    }
+        
+        
+        .analogy{
+        display:block;
+                    opacity:0;
+    
+    }
+        
+        
+        .mo6{
+            position:relative;
+            top:300px;
+        }
+        
+    
+    .mobileOneBox {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 380px;
+        height: 140px;
+        background: linear-gradient(to right, #b7c0c6, rgb(233, 232, 232));
+        border-radius: 30px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    
+    
+    
+    
+    
+    .mobileOneBox1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 380px;
+        height: 140px;
+        background: linear-gradient(to right, #b7c0c6, rgb(233, 232, 232));
+        border-radius: 30px;
+        margin: 0 auto;
+        margin-top: 10px;
+    
+    }
+    
+    .imgkabelvvodMobile {
+        width: 200px;
+        border-radius: 30px;
+    }
+    
+    .imgkabelvvodMobile1{
+        width: 200px;
+        border-radius: 30px;
+        position: relative;
+        left: 80px;
+    }
+    
+    .imgkabelvvodMobile2{
+        width: 240px;
+        border-radius: 30px;
+        position: relative;
+        left: -83px;
+    }
+    
+    
+    .imgkabelvvodMobile4{
+        width: 380px;
+        border-radius: 30px;
+        position: relative;
+        left: -233px;
+    }
+    
+    
+    
+    .mobText {
+        text-align: left; /* Чтобы текст был слева */
+        margin-left: 80px;
+    }
+    
+    
+    .mobText1 {
+        text-align: left; /* Чтобы текст был слева */
+        margin-left: 180px;
+        font-size: 21px;
+        position: relative;
+        right:100px;
+        line-height: 19px;
+        font-weight: bold; /* Если необходимо сделать текст жирным */
+    
+    }
+    
+    
+    .mobText4 {
+        text-align: left; /* Чтобы текст был слева */
+        margin-left: 270px;
+        font-size: 21px;
+        position: relative;
+        right:20px;
+        line-height: 19px;
+        font-weight: bold; /* Если необходимо сделать текст жирным */
+    
+    }
+    
+    .mobText3 {
+        text-align: left; /* Чтобы текст был слева */
+        margin-left: 160px;
+        font-size: 21px;
+        position: relative;
+        right:50px;
+        line-height: 19px;
+        font-weight: bold; /* Если необходимо сделать текст жирным */
+    }
+    
+    
+    .mobColorText1 {
+        font-weight: lighter; /* Если необходимо сделать текст жирным */
+        font-size: 16px;
+    }
+    
+    
+    .mobColorText {
+        font-weight: bold; /* Если необходимо сделать текст жирным */
+        font-size: 31px;
+    }
+    
+    .boxImgLast {
+        margin: 0 auto;
+        width: 380px;
+        position: relative;
+    }
+    
+    .imgMnogoGaekk {
+        border-radius: 40px;
+        display: block;
+        width: 100%;
+        height: 140px;
+    
+    }
+    
+    .mobText2 {
+     
+        text-align: left; /* Чтобы текст был слева */
+        position: absolute;
+        top: 20%;
+        left: 150px; /* Отступ слева */
+        transform: translateY(-50%);
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    
+    .mobColorText2 {
+    
+          font-size: 31px;
+        font-weight: bold;
+    }
+    
+    
+    
+    .imgGaiky{
+        border-radius: 40px;
+        margin-top: 10px;
+        z-index:123123123123123123;
+    
+    }
+    
+        .boxLogoMobile{
+            display:flex;
+            justify-content:center;
+            margin-top:20px;
+        }
+    
+        
+        .sizeImgM{
+            width:250px;
+        }
+        
+        
+        .boxLogoMobile1{
+            position:relative;
+            top:200px;
+        }
+        
+        
+        
+    /* 	 */
+    /* 	 */
+    /* 	 */
+    /* 	 */
+        
+        .flexxxconttttttt{
+            display:flex;
+            border: 3px solid #898989;
+            border-radius: 50px;
+            justify-content: center;
+            width:1280px;
+            margin:1px auto;
+            padding:60px;
+            position: relative;
+            bottom: 145px;
+        
+            
+        }
+        
+        
+        .logoboxIcon{
+        margin-top: 10px;
+            position:relative;
+            top:-130px;
+            left:-1px;
+        
+    }
+        
+        
+        .menu-row1{
+            display: block;
+            width:100%;
+            padding:0;
+            font-size:13px;
+    
+    
+        }
+        
+        
+        .menuitemBoxIcon p{
+        font-size:13px;
+            font-weight: bold;
+    
+        }
+        
+        .menuitemBoxIcon {
+        text-align: center; 	
+            margin:10px;/*Увеличьтезначениеотступадо200pxилиповашемуусмотрению */
+        flex: 0 0 calc(15% - 170px); /* 25% минус отступы */
+        text-align: center;
+         padding: 5px;
+        width:150px;
+    
+    
+        height:200px;
+    }
+        
+        
+    /*  .formBox {
+         min-width: 100%;	         
+         max-width: 400px;
+         margin:0 auto;
+               background-color: #d8d8d8;
+    
+        } */
+      
+      
+    /*     .ajax{
+          background-color: #d8d8d8;
+          border-radius: 15px;
+           min-width: 100%;
+                 max-width: 400px;
+                 margin:0 auto;
+    
+        } */
+    /*     
+        .bckBox{			 margin:0 auto;
+          width: 400px;
+          padding: 1px 50px 54px 40px;
+        }
+        
+        .formTitle {
+          font-size: 28px;
+          color: #898989;
+        }
+        
+       .massagePlaceholder{
+            width: 100%;
+       }
+           */
+    /*    .containerFlex {
+              display: flex;
+              flex-direction: column;
+              position: relative;
+              left: -50px;
+           width:100%;
+    }
+         */
+    
+        
+    /*     .buttonBox {
+           display: flex;
+        width: 340px;
+        position:relative;
+        left:-150px;
+    }
+    
+    #dropdown, #submitButton {
+        border-radius: 15px;
+        text-align: center;
+        width: 130px; 
+        height: 40px;
+        position:relative;
+            left:-50px;
+    }
+    
+    
+    #dropdown{
+        border-radius: 15px;
+        text-align: center;
+        width: 130px; 
+        height: 40px;
+    }
+    
+    
+    #submitButton {
+            width: 130px;
+    
+        background-color: #E76000;
+    }
+        
+    .containerFlex {
+            width:400px;
+        }
+        
+        
+    .menu-row1 a.menuitemBoxIcon p {
+      font-weight: bold; 
+        
+        
+        
+        .mobyleMassagePlaceholder{
+        display:block;
+            }
+        
+        
+        
+        .callBack{
+                display:none;
+    
+        }
+        
+    
+    
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    .mobyleMassagePlaceholder{
+        display:none;
+    }
+    
+      .formBoxBackgruun{
+       background-color: #d8d8d8;
+        border-radius: 15px;  }
+      
+      .bckBox {
+        padding: 1px 50px 54px 40px;
+         height:400px;
+      }
+      
+      .formTitle {
+        font-size: 32px;
+        color: #898989;
+      }
+      
+     .massagePlaceholder{
+        width: 100%;
+        height: 64px;
+        border-radius: 20px;
+        border: none;
+        padding-left: 15px;
+        font-size: 20px;
+             font-family: 'EuropeExt', Arial, sans-serif;
+    
+     }
+    
+    
+      .namePlaceholder,
+      .numberPlaceholder,
+      .emailPlaceholder{
+        width: 170px;
+        height: 40px;
+        border-radius: 27px;
+        border: none;
+        padding-left: 15px;
+        margin-top: 20px;
+        font-size: 16px;
+        font-family: 'EuropeExt', Arial, sans-serif;
+      }
+    
+    .emailPlaceholder{
+        width: 200px;
+        height: 40px;
+        border-radius: 27px;
+        border: none;
+        padding-left: 15px;
+        margin-top: 20px;
+        font-size: 16px;
+              font-family: 'EuropeExt', Arial, sans-serif;
+        margin-left:15px;
+    
+      }
+    
+      .numberPlaceholder{
+        margin-left: 20px;
+              font-family: 'EuropeExt', Arial, sans-serif;
+    
+      }
+      
+      .containerFlex {
+        display: flex;
+              font-family: 'EuropeExt', Arial, sans-serif;
+          justify-content:center;
+          margin-top:10px;
+    
+      }
+      
+      .buttonBox {
+        position: relative;
+        top: 50px;
+          left:300px;
+              font-family: 'EuropeExt', Arial, sans-serif;
+    
+      }
+    
+    
+    
+      
+      #dropdown {
+        border-radius: 15px;
+        background-color: white;
+        border: solid 2px #E76000;
+        color: #E76000;
+        text-align: center;
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+              font-family: 'EuropeExt', Arial, sans-serif;
+    
+      }
+      
+    
+    #dropdown:hover {
+        background-color: #E76000;
+        color: white;
+        transition: 0.3s;
+    
+    
+      }
+      
+      #submitButton {
+        border-radius: 15px;
+            font-family: 'EuropeExt', Arial, sans-serif;
+        text-align: center;
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+        background-color: #E76000;
+        color: white;
+        border: none;
+      }
+      
+      #submitButton:hover {
+        background-color:white;
+        color: #E76000;
+        transition: 0.3s;
+      }
+      
+    
+    */
+    }
+    
+    @media (max-width: 768px) {
+    
+        .h-search__wrap{
+            width:90%;
+    
+    }
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    @media (max-width: 899px) {
+    
+        
+        
+        .tabs{
+            opacity:0;
+            display:none;
+        }
+        
+        
+            
+        .w1{
+            display:none;
+        }
+        
+        
+        .tab{
+            display:none;
+        }
+    }
+    
+    /* slide */
+    
+    .slider-containerNew {
+    
+      overflow: hidden;
+      margin: 0 auto;
+        position:relative;
+        
+    
+    }
+    
+    .sliderNew {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+     .slide img, .slide1 img, .slide2 img {
+        position:relative;
+              width: 100%;
+
+    
+    }
+    .slide, .slide1, .slide2 {
+      width: 100%;
+      position:relative;
+      
+      margin: 0 auto;
+      display: none;
+    
+    }
+    
+    .slidreNewBox{
+      margin: 0 auto;
+    }
+    
+    /* Добавляем фоновые изображения для разных разрешений */
+    @media only screen and (min-width: 900px) and (max-width: 1280px) {
+      .slide {
+        display: block;
+      }
+    
+      .slide1, .slide2 {
+        display: none;
+      }
+    }
+    
+    /* Добавляем фоновые изображения для разных разрешений */
+    @media only screen and (min-width: 1280px) and (max-width: 3001px) {
+      .slide1 {
+        display: block;
+      }
+    
+      .slide, .slide2 {
+        display: none;
+      }
+    }
+    
+    @media only screen and  (min-width: 3000px) {
+      .slide2 {
+        display: block;
+      }
+    
+      .slide, .slide1 {
+        display: none;
+      }
+    }
+    
+    @media only screen and (min-width: 900px) and (max-width: 1280px) {
+      .slide {
+        display: block;
+      }
+    
+      .slide1, .slide2 {
+        display: none;
+      }
+    }
+    
+    /* Добавляем фоновые изображения для разных разрешений */
+    @media only screen and (min-width: 1280px) and (max-width: 3001px) {
+      .slide1 img {
+        display: block;
+      }
+    
+      .slide, .slide2 {
+        display: none;
+      }
+    }
+    
+    @media only screen and  (min-width: 3000px) {
+      .slide2 img{
+        display: block;
+      }
+    
+      .slide, .slide1 {
+        display: none;
+      }
+    }
+    
+    
+    
+    
+    /*  */
+    
+    
+    .tabs {
+        font-family: 'EuropeExt', Arial, sans-serif;
+        font-weight:bold;
+        display: flex;
+        background-color: #E5E5E5; /* Серый фон */
+        border-radius: 40px; /* Закругленные углы */
+        overflow: hidden; /* Скроем любое содержимое, которое выйдет за пределы контейнера */
+        position:relative;
+        top:-1px;
+        align-items:center;
+        height:140px;
+        width:1200px;
+        margin:0 auto;
+    
+    }
+    
+    
+    
+    .linkTab {
+        text-decoration: none;
+        flex: 1; /* Распределение равномерно между ссылками */
+        padding-top: 70px; /* Отступ вокруг ссылок */
+        text-align: center; /* Выравнивание текста по центру */
+        color: #5D5B60; /* Цвет текста */
+        height:150px;
+        transition:0.5s;
+    
+    
+    }
+    
+    .linkTab1{
+           text-decoration: none;
+        flex: 1; /* Распределение равномерно между ссылками */
+        padding-top: 55px; /* Отступ вокруг ссылок */
+        text-align: center; /* Выравнивание текста по центру */
+        color: #5D5B60; /* Цвет текста */
+        height:150px;
+        transition:0.5s;
+    
+    }
+    
+    .linkTab2{
+           text-decoration: none;
+        flex: 1; /* Распределение равномерно между ссылками */
+        padding-top: 45px; /* Отступ вокруг ссылок */
+        text-align: center; /* Выравнивание текста по центру */
+        color: #5D5B60; /* Цвет текста */
+        height:150px;
+        transition:0.5s;
+    
+    }
+    
+     .linkTab1:hover {
+        background-color: #E56000; /* Цвет фона при наведении */
+        color: #fff; /* Цвет текста при наведении */
+    }
+    
+    .linkTab2:hover {
+        background-color: #E56000; /* Цвет фона при наведении */
+        color: #fff; /* Цвет текста при наведении */
+    }
+    
+    .linkTab:hover {
+        background-color: #E56000; /* Цвет фона при наведении */
+        color: #fff; /* Цвет текста при наведении */
+    }
+    
+    
+    
+    
+    /*  */
+    
+    
+    
+    
+    .giperMenu{
+        width: 1100px;
+        margin: 0 auto;
+    }
+    
+    
+    .titleGiperMenu{
+        color: rgb(199, 199, 199);
+        font-size: 30px;
+        position:relative;
+        left:-40px;
+    }
+    
+    
+    .actionCool{
+        width: 350px;
+        height: 160px;
+        background: linear-gradient(to bottom right, #ffffff, #E8E8E8);
+        border-radius: 15px;
+    
+    }
+    
+    .imgAction{
+        position: relative;
+        height: 166px;
+        left: 20px;
+        bottom: 135px;
+    }
+    
+    .imgCabel{
+        position: relative;
+        left: 155px;
+        bottom: 195px;
+        height: 286px;
+    
+    }
+    
+    .textAction{
+        color: #595660;
+        font-size: 29px;
+        position: relative;
+        top: 80px;
+        left: 20px;
+    
+    }
+    
+    
+    
+    .colorText{
+        color: #8E8E8E;
+        font-size: 18px;
+    
+    }
+    
+    
+    .shinop{
+        width: 260px;
+        height: 170px;
+        background: linear-gradient(to bottom, #E8E8E8, #FFFFFF);
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    
+    
+    .textShinop{
+        font-size: 21px;
+        position: relative;
+        bottom: 60px;
+    }
+    
+    
+    .fetsanLogoGiper{
+        position: relative;
+        left: 280px;
+        top: 15px;
+    }
+    
+    .lineBox{
+    width: 260px;
+    height: 530px;
+    background: linear-gradient(to bottom, #E8E8E8, #FFFFFF);
+    margin-left: 60px;
+    border-radius: 15px;
+    margin-top: 30px;
+    text-align: center;
+    
+    }
+    .myRuka{
+        width: 230px;
+        height: 350px;
+        margin-top: 40px;
+        margin-right: 30px;
+    
+    }
+    
+    
+    
+    .flexContainerMenu{
+        display: flex;
+    }
+    
+    .colorText1{
+        font-size: 30px;
+        color: black;
+    
+    }
+    
+    .textAction1{
+        font-size: 18px;
+        color: #b2b2b2;
+    
+    }
+    
+    .textAction2{
+        font-size: 18px;
+        color: #b2b2b2;
+        position: relative;
+        bottom: 120px;
+        left: 20px;
+    }
+    
+    .textAction11{
+        font-size: 30px;
+        position: relative;
+        bottom: 210px;
+        left: 20px;
+    
+    }
+    
+    .imgflexx{
+    
+    }
+    
+    
+    .endBox{
+        position: relative;
+        bottom: 20px;
+    }
+    
+    .iconnBoxFlex{
+        width: 260px;
+        position: relative;
+        left: 60px;
+    
+    }
+    
+    .klapanBox{
+        margin-left: 55px;
+        height:220px;
+        border-radius:15px;
+         position: relative;
+        top:-50px;
+    }
+    
+    
+    .iconnnnnn{
+        margin-left: 55px;
+         position: relative;
+        top:-30px;
+    }
+    
+    .rasem{
+        width: 260px;
+        height: 290px;
+        border: 2px solid #c9c9c9;
+        border-radius: 21px;
+        margin-left: 50px;
+        position: relative;
+        bottom: 30px;
+    }
+    
+    .woter{
+        width: 260px;
+        position: relative;
+        bottom: 78px;
+        }
+    
+        .iconnnnnn{
+            margin-bottom: 30px;
+        }
+    
+    
+        .orcic{
+            margin-left: 290px;
+        }
+    
+    /*  */
+    
+    .brandBoxPlug{
+            position: absolute;
+            left: 0;
+            margin-top: 130px;
+            background-color: #A8A8A8;
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    
+    
+        .oneBoxImgSuka {
+            z-index:99999;
+            margin: 0 40px; /* Половина отступа - 40px для равного отступа в 80px */
+          }
+    
+          .brandBoxPlugTwo{
+            display: flex;
+            justify-content: center;
+          }
+    
+    
+          .brandBoxPlugTwo {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .brandBoxPlugTwo > div {
+      margin: 0 30px; /* Горизонтальный отступ в 40px между иконками */
+    }
+    
+    .analogy{
+        margin-top: 599px;
+    }
+    
+    .titleAnalogy{
+        font-size: 42px;
+            color: #b2b2b2;
+            text-align: center;
+    
+    }
+    
+    
+    
+    
+    
+    .main-navigation__wrap{
+        position:relative;
+        top:0px;
+    }
+    
+    
+    /*galery*/
+    
+    
+    
+    /* stylec.css */
+
+.container123 {
+    display: flex;
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+        font-family: 'EuropeExt', Arial, sans-serif;
+
+}
+
+.galery {
+    position: relative;
+    top: -25px;
+    width: 1200px;
+    display: flex;
+    border-radius: 40px; /* Общий border-radius для контейнера */
+    border: 2px solid gray;
+    height: 350px;
+}
+
+.list-container {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 370px;
+    border-radius: 40px 0 0 40px;
+    overflow-y: auto; /* Добавлен стиль для скролла */
+    padding-left:70px;
+    margin-top:30px;
+}
+
+
+
+
+
+.galeryBlockTitile{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#imageList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Добавлен стиль, чтобы убрать внешний отступ списка */
+}
+
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+.photo-container {
+    width: 90%;
+    position: relative;
+    left:135px;
+    
+}
+
+.photo-container img {
+    width: auto;
+        height: 350px;
+
+    border-radius: 0 40px 40px 0; /* border-radius справа у изображений */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.photo-container img.active {
+    opacity: 1;
+}
+
+
+.listContTitleText{
+    font-size: 16px;
+    font-weight: bold;
+    color: #949494;
+
+}
+
+
+.listContTitle{
+    color: #949494;
+    font-weight: bold;
+    font-size: 28px;
+    background-color: white;
+    padding-left: 14px;
+    width: 330px;
+
+}
+
+.imageList{
+    font-size: 15px;
+    width: 300px;
+}
+
+.listItemGalery {
+    font-weight:bold;
+    font-size: 15px;
+    margin-top: 10px;
+    color:#4F4F4F;
+    transition: font-size 0.3s ease;
+    position: relative; /* Добавлено относительное позиционирование */
+}
+
+.listItemGalery:hover {
+
+    color: #D16000;
+}
+
+.listItemGalery:hover::before {
+    content: ""; /* Пустой контент для создания блока */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent; /* Цвет фона вашего выбора */
+    z-index: -1; /* Помещаем блок за текстом */
+}
+
+
+.listItemGalery.active {
+  font-size: 18px;
+    color: #D16000;
+}
+
+
+
+.blockTitleGalery{
+    width:1100px;
+    margin:0 auto;
+    position:relative;
+    top:80px;
+    z-index:99999;
+        font-family: 'EuropeExt', Arial, sans-serif;
+
+
+}
+
+.listContTitle{
+    background-color: #FCFCFC;
+    width:400px;
+    
+
+}
+/**/

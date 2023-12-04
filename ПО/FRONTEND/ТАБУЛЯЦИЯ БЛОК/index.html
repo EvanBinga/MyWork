@@ -1,0 +1,100 @@
+<!-- Ваш HTML-код -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея с переключением</title>
+    <link rel="stylesheet" href="/stylec.css">
+</head>
+<body>
+    <div class="blockTitleGalery">
+        <h4 class="listContTitle">ПОСТАВКИ<br>КОМПЛЕКТУЮЩИХ</h4>
+
+    </div>
+
+    <div class="container123">
+
+        <div class="galery">
+
+        <div class="list-container">
+            <p class="listContTitleText">ДЛЯ ИНЖЕНЕРНЫХ ПРОЕКТОВ В СФЕРАХ:</p>
+            <ul id="imageList">
+                <li onclick="changeImage(0)" class="listItemGalery active">СВЕТОТЕХНИКА</li>
+                <li onclick="changeImage(1)"class="listItemGalery">УПРАВЛЕНИЯ ТРАНСПОРТОМ</li>
+                <li onclick="changeImage(2)"class="listItemGalery">БЕЗОПАСНОСТЬ</li>
+                <li onclick="changeImage(3)"class="listItemGalery">ПРОИЗВОДСТВО</li>
+                <li onclick="changeImage(4)"class="listItemGalery">ВЕНТИЛЯЦИЯ</li>
+                <li onclick="changeImage(5)"class="listItemGalery">СВЯЗЬ</li>
+            </ul>
+        </div>
+        <div class="photo-container">
+            <img class="displayedImage active" src="/images/01_SVETOTEHN.png" alt="">
+            <img class="displayedImage" src="/images/02_TRANSP.png" alt="">
+            <img class="displayedImage" src="/images/03_BEZOP.png" alt="">
+            <img class="displayedImage" src="/images/04_PROIZV.png" alt="">
+            <img class="displayedImage" src="/images/06_GAZ.png" alt="">
+            <img class="displayedImage" src="/images/07_SVJAZ.png" alt="">
+        </div>
+    </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
+
+
+
+<h3 class='titleProject1'>ПОСТАВКИ ДЛЯ ИНЖЕНЕРНЫХ ПРОЕКТОВ</h3>
+<div class="projects-container1">
+        <div class="project-block1">
+<img src="<?php bloginfo('template_url');?>/images/poesdOnee1.png" alt="">
+            <div class="project-description">
+                <p class="big-text1"> УПРАВЛЕНИЯ ТРАНПОРТОМ </p>
+                <p class="small-text1"> IT ИНТЕГРАЦИЯ <br> АВТОМАТИЗАЦИЯ</p>
+            </div>
+        </div>
+
+        <div class="project-block1">
+<img src="<?php bloginfo('template_url');?>/images/kreslooTwoo.png" alt="">
+            <div class="project-description">
+             	 <p class="big-text1">  БЕЗОПАСНОСТЬ </p>
+                <p class="small-text1"> СОХРАНЕНИЯ <br> АВТОМАТИЗАЦИЯ</p>
+            </div>
+        </div>
+
+        <div class="project-block1">
+<img src="<?php bloginfo('template_url');?>/images/kolaiderFree.png" alt="">
+            <div class="project-description">
+        <p class="big-text1">  ПРОИЗВОДСТВО </p>
+                <p class="small-text1"> ЭЛЕКТРОГЕНЕРАТОРЫ <br> АККУМУЛЯТОРОВ ДЛЯ ПОДСТАНЦИЙ <br>ТРАНСФОРМАТОРНЫХ ПОДСТАНЦИИ СИСТЕМЫ</p>
+            </div>
+        </div>
+
+        <!-- Вторая линия -->
+        <div class="project-block1">
+<img src="<?php bloginfo('template_url');?>/images/mykrochety.png" alt="">
+            <div class="project-description">
+                <p class="big-text1">  ВЕНТИЛЯЦИИ  </p>
+                <p class="small-text1"> РЕШЕНИЯ ВЕНТИЛЯЦИИ <br> И КОНДИЦИОНИРОВАНИЕ</p>
+            </div>
+        </div>
+
+        <div class="project-block1">
+			<img src="<?php bloginfo('template_url');?>/images/gaz.png" alt="" class="imgboxxxxx">
+
+            <div class="project-description">
+                    <p class="big-text1">  ГАЗОВАЯ ОТРАСЛЬ  </p>
+                <p class="small-text1"> СЧЕТЧИКИ И МАНОМЕТРЫ <br> АВТОМАТИЗАЦИЯ УПРАВЛЕНИЯ</p>
+            </div>
+        </div>
+
+        <div class="project-block1">
+<img src="<?php bloginfo('template_url');?>/images/endddd.png" alt="">
+			
+            <div class="project-description">
+				 <p class="big-text1">  СВЯЗЬ </p>
+                <p class="small-text1"> ТЕЛЕКОММУНИКАЦИЯ <br> И СВЯЗЬ</p>
+            </div>
+        </div>
+    </div>
+end
